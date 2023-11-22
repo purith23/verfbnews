@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imghead img{
+    width: 100%;
+}
+
+div{
+    display: block;
+}
+
+.contain{
+    padding: 0;
+}
+
+h1{
+    display: block;
+    font-weight: bold;
+    color: green;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+p, del, b, i {
+    font-size: 1.3rem;
+    font-family: "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    display: block;
+    font-size: 1rem;
+    color: green;
+}
+
+.img-contain{
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+
+.img-contain .img-wrap img{
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (width <= 350px)
+,img-contain {
+    flex-wrap: wrap;
+}
+
+h3{
+    display: block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+del{
+    text-decoration: line-through;
+}
+
+i{
+    font-style: italic;
+}
